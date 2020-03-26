@@ -9,9 +9,10 @@ The main experiment was divived into 7 runs. Each run lasted about 10 minutes an
 
 ## Data Description
 For each participant there are 2 types of variables:  
-``cnt_orig`` contains the continuous raw EEG data and ``mrk\_orig`` contains the markers that indicate when a trial starts, when it ends and what kind of trial it is (i.e. which secondary task and whether left or right ).  
+``cnt_orig`` contains the continuous raw EEG data and ``mrk_orig`` contains the markers that indicate when a trial starts, when it ends and what kind of trial it is (i.e. which secondary task and whether left or right ).  
 Both variables are 2-dimensional cell arrays where the first entry contains data from the calibration phase (72 trials, no secondary tasks) and the second entry data from the feedback phase (432 trials with secondary tasks and auditory feedback).  
-In ``mnt`` the coordinates of all electrodes are stored and can be used for visualization. The two variables ``bands`` and ``ivals`` contain individual frequency bands and time intervals for each participants optimized for CSP analysis.
+In ``mnt`` the coordinates of all 63 electrodes are stored and can be used for visualization. The two variables ``bands`` and ``ivals`` contain individual frequency bands and time intervals for each participant optimized for CSP analysis.  
+Please note that some trials were lost in the recording, so for some participants the total number of trial might slightly vary.
 
 For further information we refer to:  
 
