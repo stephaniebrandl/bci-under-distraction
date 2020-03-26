@@ -1,4 +1,4 @@
-# BCI under distraction: Motor imagery in a pseudo realistic environment
+# BCI under Distraction: Motor Imagery in a Pseudo Realistic Environment
 
 
 ## Introduction
@@ -6,6 +6,12 @@ We have recorded a motor imagery-based BCI study under 5 types of distractions t
 
 ## Experiment
 The main experiment was divived into 7 runs. Each run lasted about 10 minutes and included 72 trials. Each trial lasted 4.5 s and was defined by one motor imagery task plus one of the 6 secondary tasks. The first run served as a calibration phase where no feedback was given and no distraction task added. The subsequent runs included the control task and the 5 distraction tasks and auditory online feedback. Feedback was based on Laplacian filters of the C3 and C4 electrodes and regularized linear discriminant analysis (RLDA). 
+
+## Data Description
+For each participant there are 2 types of variables:  
+``cnt_orig`` contains the continuous raw EEG data and ``mrk\_orig`` contains the markers that indicate when a trial starts, when it ends and what kind of trial it is (i.e. which secondary task and whether left or right ).  
+Both variables are 2-dimensional cell arrays where the first entry contains data from the calibration phase (72 trials, no secondary tasks) and the second entry data from the feedback phase (432 trials with secondary tasks and auditory feedback).  
+In ``mnt`` the coordinates of all electrodes are stored and can be used for visualization. The two variables ``bands`` and ``ivals`` contain individual frequency bands and time intervals for each participants optimized for CSP analysis.
 
 For further information we refer to:  
 
