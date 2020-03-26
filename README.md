@@ -28,7 +28,7 @@ Data is cut into epochs and band-pass filtered. This can be done with the indivi
 ``csp.m``, ``separate_csp.m``, ``ensemble_csp.m`` and ``two_step_csp.m``  
 Here you can conduct the CSP analysis as explained in [1]. Results might differ from the original paper as some parameters have been adapted.
 
-__Data can be downloaded [here]() __
+__Data can be downloaded [here]()__
 
 
 For further information we refer to:  
