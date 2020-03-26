@@ -16,7 +16,7 @@ In ``mnt`` the coordinates of all 63 electrodes are stored and can be used for v
 Please note that some trials were lost in the recording, so for some participants the total number of trials might slightly vary.  
 The data is stored in a format that can easily be further processed and analysed with the [BBCI toolbox](https://github.com/bbci/bbci_public). Data can also be transformed to a format that is compatible with other toolboxes as e.g. EEGLAB, this however needs to be done manually as there currently is no function to do that.
 
-A more detailed data description is uploaded [here]().
+A more detailed data description is uploaded [here](https://github.com/stephaniebrandl/bci-under-distraction/blob/master/data_description.pdf).
 
 ## Code
 With the Matlab code in this repository you can conduct the CSP analysis that have been done in [1]. You need to install the [BBCI toolbox](https://github.com/bbci/bbci_public) before you can run the code. It follows a short description of all scripts.  
