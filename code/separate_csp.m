@@ -1,5 +1,6 @@
 %CSP analysis where with cross-validation one classifier for each secondary
-%task is trained individually and only applied to the respective task
+%task is trained individually and only applied to the respective task as in
+%Table 3 in JNE Paper
 
 set_paths
 

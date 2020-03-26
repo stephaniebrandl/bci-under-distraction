@@ -1,7 +1,7 @@
 %2-step approach where in a first step the most noisy task 'numbers' is
 %separated from all the other tasks, in a 2nd step one of two classifiers
 %is applied to separate left/right (i.e. one for 'numbers' and one for 'not
-%numbers'
+%numbers' as in Table 6 in JNE Paper
 
 set_paths
 

@@ -1,4 +1,4 @@
-# BCI under Distraction: Motor Imagery in a Pseudo Realistic Environment  
+# BCI under Distraction: Motor Imagery in a Pseudo-Realistic Environment  
 
 __Data can be downloaded [here]()__  
 
@@ -34,7 +34,7 @@ Here you can conduct the CSP analysis as explained in [1]. Results might differ 
 
 For further information we refer to:  
 
-[1]
+[1]  
 __Brandl S.__, Frøhlich L., Höhne J., Müller K.-R., Samek W.,  
 [Brain-computer interfacing under distraction: an evaluation study.](https://iopscience.iop.org/article/10.1088/1741-2560/13/5/056012/meta)  
 Journal of Neural Engineering, 13 056012, 2016.

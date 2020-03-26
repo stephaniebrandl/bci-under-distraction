@@ -1,5 +1,6 @@
 %ensemble CSP approach, i.e. task-specific classifiers are applied and an 
 %average decides on the label, this is done in an n-fold cross validation
+%as in Table 5 in JNE Paper
 
 set_paths
 
