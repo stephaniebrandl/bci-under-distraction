@@ -136,8 +136,8 @@ for ip=1:n_subjects
     two_step_csp_accuracy(ip,4) = n_num'*er_num/sum(n_num);
 end
 
-% if ~exist('csp_results.mat', 'file')
-%     save(fullfile('.','csp_results'),'two_step_csp_accuracy')
-% else
-%     save(fullfile('.','csp_results'),'two_step_csp_accuracy','-append')
-% end
+if ~exist('csp_results.mat', 'file')
+    save(fullfile('.','csp_results'),'two_step_csp_accuracy')
+else
+    save(fullfile('.','csp_results'),'two_step_csp_accuracy','-append')
+end

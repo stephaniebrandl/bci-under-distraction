@@ -36,7 +36,7 @@ for ip = 1:n_subjects
     for ifold = 1:n_folds
         
         %index of test data
-        idx_te = ((ifold-1)*n_te+1:ifold*n_te)
+        idx_te = ((ifold-1)*n_te+1:ifold*n_te);
         epo_te_ensemble = [];
         
         %for each secondary task we train one classifier 
