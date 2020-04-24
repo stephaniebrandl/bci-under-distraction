@@ -19,7 +19,7 @@ The data is stored in a format that can easily be further processed and analysed
 A more detailed data description is uploaded [here](https://github.com/stephaniebrandl/bci-under-distraction/blob/master/data_description.pdf).
 
 ## Code
-With the Matlab code in this repository you can conduct the CSP analysis that have been done in [1]. You need to install the [BBCI toolbox](https://github.com/bbci/bbci_public) before you can run the code. It follows a short description of all scripts.  
+With the Matlab code in this repository you can conduct the CSP analyses that have been done in [1]. You need to install the [BBCI toolbox](https://github.com/bbci/bbci_public) before you can run the code. It follows a short description of all scripts.  
 ``load_raw_data.m``  
 This has been added to show how raw data has been transformed into .mat files and how frequency band and time interval have been optimized.  
 ``set_paths.m``  
@@ -27,7 +27,7 @@ There you can set the local paths where you have stored the raw data and where e
 ``preprocessing.m``  
 Data is cut into epochs and band-pass filtered. This can be done with the individual time intervals/frequency bands or other intervalds (in ms) and bands (in Hz) can be set.  
 ``csp.m``, ``separate_csp.m``, ``ensemble_csp.m`` and ``two_step_csp.m``  
-Here you can conduct the CSP analysis as explained in [1]. Results might differ from the original paper as some parameters have been adapted.
+Here you can conduct the CSP analyses as explained in [1]. Results might differ from the original paper as some parameters have been adapted.
 
 
 
