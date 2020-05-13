@@ -3,7 +3,7 @@
 %is applied to separate left/right (i.e. one for 'numbers' and one for 'not
 %numbers' as in Table 6 in JNE Paper
 
-set_paths
+set_paths_steffi
 
 %where raw data is stored
 mat_dir = DATA_PATH_MAT;
@@ -136,8 +136,8 @@ for ip=1:n_subjects
     two_step_csp_accuracy(ip,4) = n_num'*er_num/sum(n_num);
 end
 
-if ~exist('csp_results.mat', 'file')
-    save(fullfile('.','csp_results'),'two_step_csp_accuracy')
-else
-    save(fullfile('.','csp_results'),'two_step_csp_accuracy','-append')
-end
+% if ~exist('csp_results.mat', 'file')
+%     save(fullfile('.','csp_results'),'two_step_csp_accuracy')
+% else
+%     save(fullfile('.','csp_results'),'two_step_csp_accuracy','-append')
+% end
