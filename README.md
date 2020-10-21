@@ -2,6 +2,18 @@
 
 __Data can be downloaded [here](https://depositonce.tu-berlin.de/handle/11303/10934.2)__  
 
+If you use our code or data please reference one of the following papers:  
+
+[1]  
+__Brandl S.__, Blankertz B.,  
+[Motor Imagery Under Distraction— An Open Access BCI Dataset](../files/Frontiers2020.pdf)  
+Frontiers in Neuroscience, 14 967, 2020.  
+
+[2]  
+__Brandl S.__, Frøhlich L., Höhne J., Müller K.-R., Samek W.,  
+[Brain-computer interfacing under distraction: an evaluation study.](https://iopscience.iop.org/article/10.1088/1741-2560/13/5/056012/meta)  
+Journal of Neural Engineering, 13 056012, 2016.
+
 ## Introduction
 We have recorded a motor imagery-based BCI study under 5 types of distractions that mimic out-of-lab environments and a control task. The aim of this study was to investigate the robustness of standard BCI procedures in a more realistic scenario. The distractions/secondary tasks include watching a flickering video, searching the room for a specific number, listening to news, closing the eyes, vibro-tactile stimulation and a control task. We recorded 16 healthy participants (6 female; age range: 22-30 years; mean age: 26.3 years) of which only three had previously participated in another BCI experiment.
 
@@ -23,7 +35,7 @@ The data is stored in a format that can easily be further processed and analysed
 A more detailed data description is uploaded [here](https://github.com/stephaniebrandl/bci-under-distraction/blob/master/data_description.pdf).
 
 ## Code
-With the Matlab code in this repository you can conduct the CSP analyses that have been done in [1]. You need to install the [BBCI toolbox](https://github.com/bbci/bbci_public) before you can run the code. It follows a short description of all scripts.  
+With the Matlab code in this repository you can conduct the CSP analyses that have been done in [2]. You need to install the [BBCI toolbox](https://github.com/bbci/bbci_public) before you can run the code. It follows a short description of all scripts.  
 ``load_raw_data.m``  
 This has been added to show how raw data has been transformed into .mat files and how frequency band and time interval have been optimized.  
 ``set_paths.m``  
@@ -31,14 +43,4 @@ There you can set the local paths where you have stored the raw data and where e
 ``preprocessing.m``  
 Data is cut into epochs and band-pass filtered. This can be done with the individual time intervals/frequency bands or other intervalds (in ms) and bands (in Hz) can be set.  
 ``csp.m``, ``separate_csp.m``, ``ensemble_csp.m`` and ``two_step_csp.m``  
-Here you can conduct the CSP analyses as explained in [1]. Results might differ from the original paper as some parameters have been adapted.
-
-
-
-
-For further information we refer to:  
-
-[1]  
-__Brandl S.__, Frøhlich L., Höhne J., Müller K.-R., Samek W.,  
-[Brain-computer interfacing under distraction: an evaluation study.](https://iopscience.iop.org/article/10.1088/1741-2560/13/5/056012/meta)  
-Journal of Neural Engineering, 13 056012, 2016.
+Here you can conduct the CSP analyses as explained in [2]. Results might differ from the original paper as some parameters have been adapted.
